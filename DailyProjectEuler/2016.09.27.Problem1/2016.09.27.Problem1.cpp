@@ -47,6 +47,8 @@ int main()
 	result = arithmeticSeriesSolution();
 	std::cout << result << "\n";
 
+	//Don't close the window
+	std::cin >> result;
 
 	return 0;
 }
