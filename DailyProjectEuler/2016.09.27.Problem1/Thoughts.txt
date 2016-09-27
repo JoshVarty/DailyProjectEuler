@@ -1,0 +1,11 @@
+It's been probably three years since I've written a single line of C++ code. Thoughts during writing this:
+
+- Most answers explicitly use unsigned int. I tended to default to int in C# but perhaps should be more explicit.
+- This talk of numbers reminded me that long isn't necessarily 64 bits in C++, you have to use long long.
+- I didn't consider an arithmetic series approach until I'd seen it mentioned, but it makes sense
+	- Reminded me that you can divide by two via >> 1 and mulitply by two via << 1
+- Had to look up the difference between "" and <> in #include:
+	- http://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename
+	- Spec defines logic for "" as implementation defined
+	- In practice logic says "" searches same directory and <> is implementation
+	- Seems like it might be annoying that braincells must be used for these sorts of distinctions
