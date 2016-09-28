@@ -1,0 +1,4 @@
+Thoughts during writing this:
+
+- I prefer the approach with do-while to my own. I had to keep track of the previous value which feels awkward.
+- I saw some approaches where they assigned values in the contional expression of their loop which I disliked.
