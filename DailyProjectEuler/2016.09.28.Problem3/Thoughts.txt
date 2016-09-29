@@ -4,4 +4,5 @@ no explict integer division (\) operator in C++
 - I saw a solution that used squares instead of square roots to calculate boundaries which seemed interesting if you were stranded
 on a deserted island without your sqrt() function. 
 - Once again I forgot to use unsigned int.
+- My solution fails if the original number you give it is prime. That being said, the problem didn't ask for a general solution.
  
