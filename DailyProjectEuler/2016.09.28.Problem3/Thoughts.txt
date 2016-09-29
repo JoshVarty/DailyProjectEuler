@@ -1,0 +1,7 @@
+- I originally forgot about modulus for some reason and was considering trying something with integer division. I learned there's 
+no explict integer division (\) operator in C++
+- My solution felt sloppy but integer factorization is a pain in general. Most solutions I looked at also used an isPrime() function
+- I saw a solution that used squares instead of square roots to calculate boundaries which seemed interesting if you were stranded
+on a deserted island without your sqrt() function. 
+- Once again I forgot to use unsigned int.
+ 
