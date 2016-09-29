@@ -3,9 +3,7 @@
 
 #include "stdafx.h"
 #include <math.h>
-
-//No integer division
-//
+#include <iostream>
 
 bool isPrime(long long int number)
 {
@@ -37,8 +35,7 @@ int getBiggestPrimeFactor(long long int number, long long int candidateFactor)
 	{
 		if (number % i == 0 && isPrime(i))
 		{
-			//It's a factor. Is it prime?
-			return number;
+			return i;
 		}
 	}
 
@@ -52,7 +49,12 @@ int main()
 	long long int number = 600851475143;
 	long long int root = sqrt(number);
 
-	int x = getBiggestPrimeFactor(number, root);
+	int result = getBiggestPrimeFactor(number, root);
+
+	std::cout << result << "\n";
+
+	//Don't close the window
+	std::cin >> result;
 
     return 0;
 }
