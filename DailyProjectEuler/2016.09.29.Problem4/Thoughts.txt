@@ -1,0 +1,18 @@
+I'm relatively happy with my solution but having looked at some others there are some changes I might make:
+	- Some people use a mathematical approach for isPalindrome() similar to:
+
+		bool isPalindrome(unsigned long int number)
+		{
+			unsigned long int tmp=number, invNumber=0;
+
+			while (tmp)
+			{
+				invNumber = invNumber*10 + (tmp % 10);
+				tmp /= 10;
+			}
+			return (invNumber == number ? true : false);
+		}
+
+
+	- Another optimization I liked was to start at 999 and work down. If I had used that approach then isPalindrome() would
+	likely have been called fewer times because in general we'd have found the larger solutions first.
