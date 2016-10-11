@@ -1,0 +1,13 @@
+I liked that my solution operates as a single loop. 
+
+I saw one solution that used the register keyword. When I looked up what that meant it seemed like the user wasn't using it properly.
+Register Keyword: http://stackoverflow.com/questions/3207018/register-keyword-in-c
+It seems like it had more use with older compilers and these days has limited benefits (allegedly some value with macros?)
+
+There were some algebraic solutions as well. 
+
+	Eg. We could have quickly computed the sum of 1 -> 100 as an arithmetic series before squaring. This would move work
+		out of our main loop.
+
+I could've defined my own square() function instead of using cmath's pow(). I typically default to the library just because I can
+usually guarantee anyone who reads my code will be more familiar with it than anything I'd define.
