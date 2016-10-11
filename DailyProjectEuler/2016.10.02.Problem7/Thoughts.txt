@@ -1,0 +1,8 @@
+When I wrote this algorithm I re-used isPrime() from Problem 3. It turned out there was a bug in it where I wasn't checking all
+possible factors up to AND INCLUDING the square root of the number. This became clear after stepping through and seeing
+non-primes being marked as prime.
+
+Some people online mentioned the Sieve of Eratosthenes approach in which we could find all the numbers that are exclusively NOT prime
+and save them in an array. Then we could just progress through the array looking for the 10,001st entry. The consensus seems to be that
+this is a much better approach when looking for much larger primes.
+
