@@ -1,0 +1,12 @@
+This has been the hardest problem I've attempted so far and took me the most time to think through. In the end I am happy 
+with the O(n) algorithm I've built. It works by maintaining a sliding window of values. Values are included in the window's proudct
+by multiplication and removed by division.
+
+My solution explicitly requires the largest product to contain exactly 13 digits. (ie. a larger sum made of twelve 9's will not be included if its surrounded by a 0 on either side)
+
+I spent a few minutes trying to debug my solution before realizing I was returning int from getAnswer() and there was an integer overflow.
+
+I used C-style #define which I am told is bad practice within the C++ world: http://stackoverflow.com/questions/4103086/defining-constants-in-c
+
+Most other solutions used a less peformant approach and re-calculated products for every point in the array. 
+Perhaps this is why I found this problem harder than the other ones I've worked on.
