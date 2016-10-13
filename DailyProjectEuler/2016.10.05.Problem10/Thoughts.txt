@@ -1,0 +1,8 @@
+I decided to use the sieve approach on this one after using my isPrime() approach on earlier problems. I don't think it 
+would have scaled for this problem.
+
+I learned that you need to initialize arrays on the heap to 0 via: bool * myArray = new bool[2000000](); <- the parens
+Otherwise they seem to have leftover values in them or something.
+
+I initially messed up the sieve and was marking the first number as non-prime.
+
