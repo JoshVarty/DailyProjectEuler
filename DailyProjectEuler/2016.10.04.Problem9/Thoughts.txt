@@ -1,0 +1,10 @@
+In this exercise I learned that even if functions declare a return type but aren't guaranteed to return a value your code will still compile.
+There's a warning that says that not all code paths return a value but it still compiles. This must be some of that weird C/C++ undefined behavior.
+
+It looks like most solutions have three loops like mine with varying ways of short circuiting. 
+	(eg. if a + b > 1000 then a + b + c > 1000 so we don't have to test any values of c)
+
+There was one solution with two loops (one for a, one for b) that defined c according as:
+	c = 1000 - (a + b);
+
+This means that we ONLY candidate values of c that would work. I like this solution the best from what I've seen.

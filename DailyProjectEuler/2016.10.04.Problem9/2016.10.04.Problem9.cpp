@@ -12,7 +12,6 @@
 //	There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 //	Find the product abc.
 
-
 int getAnswer()
 {
 	for (int a = 1; a < 999; a++)
