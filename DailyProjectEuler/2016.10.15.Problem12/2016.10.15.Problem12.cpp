@@ -24,9 +24,40 @@
 //	What is the value of the first triangle number to have over five hundred divisors ?
 
 
-long long int getAnswer()
+int getNumberOfDivisors(long long int number)
 {
+	int numDivisors = 0;
+	long long sqareRoot = sqrt(number);
+	for (int i = 1; i < sqareRoot; i++)
+	{
+		if (number % i == 0)
+		{
+			//Divisors come in pairs of two
+			numDivisors = numDivisors + 2;
+		}
+	}
 
+	if (sqareRoot * sqareRoot == number)
+	{
+		numDivisors = numDivisors + 1;
+	}
+
+	return numDivisors;
+}
+
+long long getAnswer()
+{
+	long long currentTriangleNumber = 0;
+	long long maxIterations = LLONG_MAX >> 1;
+	for (long long i = 1; i < maxIterations; i++)
+	{
+		currentTriangleNumber = currentTriangleNumber + i;
+		int numDivisors = getNumberOfDivisors(currentTriangleNumber);
+		if (numDivisors > 500)
+		{
+			return currentTriangleNumber;
+		}
+	}
 }
 
 int main()
