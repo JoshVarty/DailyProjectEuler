@@ -1,0 +1,8 @@
+Once again I was burned by integer overflow...
+
+Some guy online said his solution took 29 hours. I think something must've been wrong if that was the case 
+or they must've changed the problem because mine takes a few seconds.
+
+It would be possible to optimize by having a lookup table in which the number of steps for each number from one to a million were stored.
+
+
