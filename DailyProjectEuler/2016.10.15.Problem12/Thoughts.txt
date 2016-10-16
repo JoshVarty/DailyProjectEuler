@@ -1,0 +1,5 @@
+My solution is basically just a brute force approach that didn't require creativity.
+
+In this case counting number of divisors actually has a more efficient solution:
+http://mathschallenge.net/index.php?section=faq&ref=number/number_of_divisors
+
