@@ -5,3 +5,6 @@ Once again I had annoying issues with overflows. Might just use 64 bit int by de
 
 I'm kind of curious if there could be an optimization in which you iterate horizontally, vertically and across two diagonals.
 It would be possible to keep a running proudct and you'd only have to divide the previous next and multiply the next number.
+
+That being said I just double checked the cost of division vs. multiplication and it appears multiplication can be done
+in one or two clock cycles and division can take up to 24. 
