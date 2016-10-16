@@ -1,0 +1,9 @@
+I solved this problem not by calculating JUST the first ten digits but instead by taking all digits into account. 
+Apparently for this particular set of numbers you could have cheated and only added the initial digits, but this solution
+doesn't generalize for other numbers (eg. All 9's)
+
+I essentially just implemented logic for addition + carrying digits using arrays to hold the numbers.
+
+This was probably the most painful problem I've done so far.
+
+If I could redo this problem I would have implemented a BigInt class in order to get practice with classes n stuff in C++
