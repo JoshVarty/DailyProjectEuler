@@ -1,0 +1,7 @@
+I kind of wish I had come up with a better solution but when reviewing others it seemed that most all of them used 
+a similar approach (if not more brute force).
+
+Once again I had annoying issues with overflows. Might just use 64 bit int by default going forward.
+
+I'm kind of curious if there could be an optimization in which you iterate horizontally, vertically and across two diagonals.
+It would be possible to keep a running proudct and you'd only have to divide the previous next and multiply the next number.
