@@ -1,0 +1,11 @@
+I originally tried to do this without the lookup and it ended up taking way too long. That said it's possible 
+my program may have completed sooner than the extra time it took me to add a lookup.
+
+I (still) don't know a good way to initialize 2D arrays to -1 so I just did it with a loop.
+I've actually asked this question on SO before:
+http://stackoverflow.com/questions/8204787/static-initialization-of-an-array-of-structs-in-c
+
+Anyways with the lookup the problem was solved in less than a second and I'm pretty happy with it.
+
+The solution 137846528820 is equivalent to 40 choose 20. 
+TBH I understand the 40 portion but not the 20 part... I'll have to think about this some more.
