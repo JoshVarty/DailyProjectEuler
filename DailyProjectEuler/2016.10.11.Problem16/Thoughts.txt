@@ -1,0 +1,19 @@
+I didn't try to come up with a simple of easily understandable approach with this problem. Instead I 
+decided I'd start learning a little bit about C++ classes. It's been a long time since I've used them
+and I've never used operator overloading before.
+
+TBH I'm still unsure on the * vs & syntax right now. From what I remember int * x; creates a pointer to
+an integer but int y = *x gets the value from the pointer. It feels like * and &  dont always 
+"go the same direction" to me.
+
+My first attempt tried to use += and add the two arrays up at once but I ran into an issue where when I added
+an object with itself then I would be modifying both arrays at once because we're using pointers.
+
+eg. BigInt *x = new BigInt();
+    *x += *x;
+
+I could spend some time learning more specific details about pointers but I'm going to first try to gather
+a stronger intuition by using them in more problems.
+
+C++ is a noisy language. It's tough to look at my code and see what's going on. It feels optimized for writing (eg. brevity)
+rather than reading.
