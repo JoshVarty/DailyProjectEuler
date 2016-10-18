@@ -1,0 +1,15 @@
+This was the least enjoyable problem I've attempted so far. However I learned a bunch about the
+std::string class that I wasn't aware of before:
+    - std::string cannot be null as it's not a pointer. Intution from other languages misled me.
+    - Replace does not let you replace chars in a string with empty chars
+    - The errors in C++ are frequently misleading. Mismatched parens cause misleading errors (like F#)
+    
+I could have changed my implementation to return numbers (character count) instead of strings and saved myself
+the pain of having to work through the string stuff. However if my implementation had been incorrect I figured this
+would make it hard to debug.
+
+Many people used a pencil-and-paper approach whereby the computer was just a calculator.
+
+I don't really like my approach but no one else's really jumped out at me either. I'm just glad to be done.
+
+This problem made me miss C#.

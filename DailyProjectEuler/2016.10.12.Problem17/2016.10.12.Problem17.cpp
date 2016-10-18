@@ -7,8 +7,6 @@
 #include <string>
 #include <cctype>
 
-
-
 std::string getThousands(int number)
 {
     if (number == 0) return "";
