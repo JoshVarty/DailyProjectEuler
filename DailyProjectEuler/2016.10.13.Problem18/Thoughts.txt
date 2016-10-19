@@ -1,0 +1,10 @@
+My first thought was to treat this as a graph problem and use Dijkstra's Algorithm to find the shortest path (after inverting the weights).
+It turned out to be simpler than that and my solution instead just calculates the max weight so far and carries that forward through each
+layer. Finally at the end we just look for the largest weight in the final row.
+
+I'm pleased with my solution, but not with the way I arrived at it. I spent a lot of time unsure because I thought
+I also needed to maintain a list of all of the numbers and started working on solutions for this. At some point I realized 
+I just needed the sum and the problem wrapped up very quickly after that.
+
+Lots of solutions online use a brute force approach because the problem space is small and can be bruteforced. This 
+won't hold up once we get to Problem 67 though, as it has 100 rows.
