@@ -68,7 +68,6 @@ long long getAnswer()
                 results[i + 1][j + 1] = rightSum;
             }
 
-            //Could also nest these within previous conditions if we wanted to avoid an extra check
             if (leftSum > maxSum)
             {
                 maxSum = leftSum;
