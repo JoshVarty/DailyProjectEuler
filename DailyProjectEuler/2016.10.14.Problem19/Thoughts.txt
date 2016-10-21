@@ -1,0 +1,16 @@
+This problem was interesting to me because I was asked an almost identical problem when interviewing for an
+internship at Khan Academy in 2012. I fumbled on the question and got stuck on edge cases and I ultimately 
+did not receive an offer from them. So I took this as an opportunity for a sort of redemption.
+
+I submitted the wrong answer twice for the following reasons:
+	- I was calculating isLeapYear() incorrectly and had an extra for 1900
+	- I assumed they wanted the Sundays on the 1st within 1900, but they wanted you to start counting in 1901
+
+Moral of the story would be that it pays to read the question carefully, both to understand how leap years
+should be calculated and what dates to count.
+
+I saw a solution that coded the number of days in each month into an array and I preferred that to my big
+if-else's.
+
+Lots of people calculated the answers by hand or used date libraries so there wasn't much to pull from their
+approaches.
