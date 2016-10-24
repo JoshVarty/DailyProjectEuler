@@ -1,0 +1,7 @@
+I found this one relatively easy but it required a careful reading of the problem. I thought we were looking
+for numbers under 1,000 instead of 10,000.
+
+It's possible to calculate the sum in place without an extra iteration but I wanted to try using std::set.
+It's kind of depressing using it after being spoiled by C#'s foreach for so long.
+
+I'm not sure how much time I saved by caching results, but my approach seemed to work pretty quickly.
