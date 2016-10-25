@@ -1,0 +1,10 @@
+My solution felt kind of like cheating but at least I learned a new C++ standard library functionality.
+
+I saw another similar solution that was even more concise:
+	
+	char ca[]="0123456789";
+
+    for(int i=1;i<1000000;i++)
+        std::next_permutation(ca,ca+10); 
+
+    cout << ca << endl;
