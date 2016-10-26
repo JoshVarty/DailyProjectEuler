@@ -1,0 +1,7 @@
+I messed this one up. For some reason I thought I should cache all of the fibionacci results in a lookup.
+I then thought that I'd need to use unordered_map<string,string> despite the fact I could have at least
+used unordered_map<int,string>.
+
+This led me down a painful path of converting between int[] and string where I wasted a lot of time.
+
+In the end my solution works but I barely feel comfortable putting this on a GitHub no one will check.
