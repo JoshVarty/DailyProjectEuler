@@ -1,0 +1,8 @@
+This was a pretty straightforward problem. The only optimization I made was to cache whether numbers were prime or not in an array. I'm not sure that this was useful.
+The cache was so large that initializing it to 0 seemed to end up dominating runtime. I probably could have better estimated the size I needed instead of just making it INT32_MAX.
+
+Only real thoughts:
+	When refactoring a for-loop to do-while I accidentally introduced two declarations of a variable with the same name. Since 
+	C++ allows variable shadowing there was no error but my program didn't work properly. I'll need to be more cognizant of this
+	in the future.
+	
