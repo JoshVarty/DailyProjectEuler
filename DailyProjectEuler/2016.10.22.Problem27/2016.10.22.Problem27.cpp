@@ -56,7 +56,7 @@ int getNumberOfPrimes(int a, int b)
 	{
 		n = n + 1;
 		long long result = n * n + a * n + b;
-		bool numberIsPrime = isPrime(result);
+		numberIsPrime = isPrime(result);
 
 	} while (numberIsPrime);
 
