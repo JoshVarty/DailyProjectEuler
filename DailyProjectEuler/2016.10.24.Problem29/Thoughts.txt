@@ -1,0 +1,6 @@
+I learned about the resize() and reserve() functionality in std::string while writing this solution. Resize() seems to allow me to forcefully shrink a string while reserve() does not.
+
+While writing this solution I realized I was no longer enjoying doing the problems. I've now written a couple of implementations
+of BigInteger functionality including multiply, add, divide etc. 
+
+This is probably going to be my last ProjectEuler for awhile. Instead I'm going to focus on building a trading system with C++ over the next few months.
